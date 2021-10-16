@@ -1,0 +1,90 @@
+#user_details {
+  width: 400px;
+  margin: auto;
+  margin-top: 10vh;
+}
+#user_info {
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+  background-color: rgb(97, 154, 240);
+  /* box-shadow: 0px 0px 40px rgba(128, 128, 128, 0.178) inset; */
+}
+#profile_photo {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 4rem;
+  background-color: rgb(218, 218, 218);
+}
+#logout {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: bold;
+  padding: 5px;
+  text-align: right;
+  color: red;
+  cursor: pointer;
+}
+#name {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 60%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: white;
+  margin-left: 10px;
+  color: rgb(206, 214, 221);
+  text-transform: capitalize;
+}
+#buttons {
+  text-align: right;
+  margin-top: 5px;
+}
+
+#delete_button {
+  background-color: red;
+}
+#input_file {
+  font-size: 1rem;
+  outline: none;
+  color: white;
+  height: 2rem;
+}
+#personal_blogs {
+  margin-top: 2rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  color: brown;
+  margin-bottom: -10vh;
+}
+#edit_button,
+#delete_button,
+#save_button,
+#cancel_button {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  background-color: green;
+  color: white;
+  padding: 3px 0.7rem;
+  cursor: pointer;
+  margin: 0.4rem;
+}
+
+#delete_button {
+  background-color: red;
+  margin-right: 3px;
+}
+#cancel_button {
+  background-color: rgb(73, 18, 177);
+}
+#buttons {
+  text-align: right;
+  margin-top: 1rem;
+}
+@media (max-width: 500px) {
+  #user_details {
+    width: 80%;
+  }
+}
